@@ -1,0 +1,22 @@
+<!--pages/dianjijinxinpinggu/dianjijinxinpinggu.wxml-->
+<view>+
+    <view class="dianji">点击评估</view>
+      <view class="lishijilu">
+      <navigator class="" target="" url="../minePinggu/minePinggu" hover-class="none" open-type="navigate">
+          <view class="boxlishi">
+              <button class="lishi" style="width: 600rpx;">历史评估</button>
+          </view>
+      </navigator>
+        
+          
+            <view class="boxxiong">
+                <image class="xiong" src="/首页修改_slices/熊.png"/>
+                  
+            </view>
+              
+
+      </view>
+        
+
+</view>
+  

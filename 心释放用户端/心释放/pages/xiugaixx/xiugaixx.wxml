@@ -1,0 +1,8 @@
+<!--pages/xiugaixx/xiugaixx.wxml-->
+<view>
+    <view class="shuru">
+        <input class="input" type="text" placeholder="修改生日例：20200301" bindinput="setvalue" />
+    </view>
+      <button class="save" bindtap="baocun">保存</button>
+
+</view>

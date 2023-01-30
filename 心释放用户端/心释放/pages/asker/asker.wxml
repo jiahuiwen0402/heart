@@ -1,0 +1,65 @@
+<!--pages/asker/asker.wxml-->
+<!-- 咨询师主页 -->
+<view>
+    <!-- 咨询师头像名字 -->
+    <view class="top">
+        <view class="touxiangbox">
+            <image class="touxiang" src="/PNG/256 px/andy.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+              
+        </view>
+        <view class="xingming">{{username}}</view>
+        <view class="jibie">XXX级咨询师</view>
+    </view>
+    <view class="middle">
+        <view class="feiyong">
+            <view class="box">
+                <view>咨询费用</view>
+                <view>300元/次</view>
+            </view>
+            <view class="box">
+                <view>咨询经验</view>
+                <view>2000+小时</view>
+            </view>
+            <view class="box">
+                <view>咨询方式</view>
+                <view>面对面/视频</view>
+            </view>
+        </view>
+        <view class="jingyan">
+            <view>
+                <view>个人资料</view>
+                <view class="ziliao">
+                    {{briefIntroduction}}
+                </view>
+            </view>
+            <view>
+                <view>咨询专长</view>
+                <view class="zhuanchang">
+                    ----------------------------------------
+                    -----------------------------------------------                
+                </view>
+            </view>
+            
+        </view>
+    </view>
+      
+    
+</view>
+  <view class="yuyue">
+      <view>
+        <view>
+            <image class="kefuimg" src="/首页修改_slices/xinbaniconshangchuan-.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+          </view>
+        <view>客服</view>
+      </view>
+      <view>
+        <view>
+            <image class="shoucangimg" bindtap="shoucang" data-index="{{index}}" src="/首页修改_slices/shoucang.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+        <view>收藏</view>
+      </view>
+      <view>
+        <button class="button" bindtap="nowyuyue">立即预约</button>
+      </view>
+  </view>
+    

@@ -1,0 +1,66 @@
+<!--pages/mine/mine.wxml-->
+<view>
+    <view class="top">
+        <view class="picture">
+            <image class="touxiang" src="{{myPic}}" binderror="" bindload="" />
+        </view>
+          <view class="name">
+              <view class="myName">{{myName}}</view>
+              <navigator class="" target="" url="../gerenxinxi/gerenxinxi" hover-class="none" open-type="navigate">
+                <text class="xiugai">点击修改个人信息</text>
+              </navigator>
+                
+          </view>
+          <navigator class="" target="" url="../shezhi/shezhi" hover-class="navigator-hover" open-type="navigate">
+            <view>
+                <image class="shezhi" src="/首页修改_slices/shezhi.png" binderror="" bindload="" />
+                  
+            </view>
+          </navigator>
+            
+            
+              
+    </view>
+    <view class="data">
+      <navigator class="" target="" url="../history/history" hover-class="navigator-hover" open-type="navigate">
+        <view class="myMag">
+            <image class="smallicon" src="/首页修改_slices/lishi-.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+              <text class="word">历史发布</text>
+          </view>
+      </navigator>
+        <navigator class="" target="" url="../dingdan/dingdan" hover-class="navigator-hover" open-type="navigate">
+          <view class="myMag">
+            <image class="smallicon" src="/首页修改_slices/wodedingdan.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+              <text class="word">我的订单</text>
+          </view>
+      </navigator>
+          <navigator class="" target="" url="../zixun/zixun" hover-class="navigator-hover" open-type="navigate">
+            <view class="myMag">
+            <image class="smallicon" src="/首页修改_slices/yixianshi_huaban.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+              <text class="word">我的咨询</text>
+          </view>
+          </navigator>
+            <navigator class="" target="" url="../minePinggu/minePinggu" hover-class="navigator-hover" open-type="navigate">
+              <view class="myMag">
+                <image class="smallicon" src="/首页修改_slices/jilu-2.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                <text class="word">我的心理健康评估记录</text>
+              </view>
+            </navigator>
+              <navigator class="" target="" url="../mineMsg/mineMsg" hover-class="navigator-hover" open-type="navigate">
+                <view class="myMag">
+                  <image class="smallicon" src="/首页修改_slices/xiaoxi1.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                  <text class="word">我的消息</text>
+                </view>
+              </navigator>
+                <navigator class="" target="" url="../shoucang/shoucang" hover-class="navigator-hover" open-type="navigate">
+                <view class="myMag">
+                  <image class="smallicon" src="/首页修改_slices/shoucang.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                  <text class="word">我的收藏</text>
+                </view>
+              </navigator>
+
+      </view>
+        
+</view>
+  
+

@@ -1,0 +1,36 @@
+<!--pages/mineMsg/mineMsg.wxml-->
+<view>
+      <view class="xingxi">
+      <!-- 头像 -->
+          <view class="touxiangbox">
+              <image class="touxiang" src="/PNG/256 px/edward.png" binderror="" bindload="" />
+                
+          </view>
+          <!-- 名字和信息缩写 -->
+            <view class="mingzi">
+                <view>姓名</view>
+                <view class="suoxie">
+                  <view>"为什么所有ddl都要扎堆"</view>
+                  <view>
+                    <text>2020年6月16日</text>
+                    <text>15:00</text>
+                  </view>
+                </view>
+                  
+                  
+            </view>
+            <!-- 小图标 -->
+              <view class="smallIcon">
+                  <image class="icon" src="/首页修改_slices/消息.png" binderror="" bindload="" />
+                    
+              </view>
+                
+      </view>
+      
+</view>      
+<view class="bottom">
+  <text class="">-------已经到底啦-------</text>
+</view>
+          
+
+  

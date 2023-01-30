@@ -1,0 +1,58 @@
+/* pages/history/history.wxss */
+.beijing{
+    width: 100%;
+    height: 300rpx;
+}
+.touxiang{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    position: absolute;
+    right: 50rpx;
+    top: 220rpx;
+}
+.year{
+    font-size: larger;
+    margin: 50rpx;
+}
+.yellow{
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50%;
+    background-color: #f9dc74;
+    display: inline-block;
+}
+.numberbox{
+    display: flex;
+}
+.date{
+    height: 60rpx;
+    line-height: 60rpx;
+    display: inline-block;
+    margin-left: 30rpx;
+}
+.contentMsg{
+    width: 80%;
+    height: 200rpx;
+    margin: 0 auto;
+    box-shadow: 0 10rpx 10rpx rgb(207, 205, 205);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.fabiao{
+    width: 90%;
+    height: 90%;
+    line-height: 70rpx;
+    margin: 0 auto;
+}
+.historyBox{
+    width: 100%;
+    height: 300rpx;
+    margin: 20rpx auto;
+}
+.tupian{
+    width: 100rpx;
+    height: 100rpx;
+}

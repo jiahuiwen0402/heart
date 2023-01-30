@@ -1,0 +1,145 @@
+/* pages/ask/ask.wxss */
+.top{
+    width: 90%;
+    height: 300rpx;
+    background-color: #f8db73;
+    margin: 0 auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.search{
+    width: 100%;
+    height: 65rpx;
+}
+.search input{
+    background-color: #fdf0c6;
+    width: 85%;
+    height: 60rpx;
+    border-radius: 50px;
+    font-size: small;
+    text-align: center;
+    color: #b1aa8d;
+    margin-left: 10rpx;
+}
+.searchicon{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 130rpx;
+}
+.searchpic{
+    width: 23px;
+    height: 23px;
+    vertical-align: middle;
+    margin-left: 2px;
+}
+.dingdan{
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    right: 70rpx;
+    top: 0rpx;
+}
+.dingdanicon{
+    width: 15px;
+    height: 20px;
+}
+.dingdan span{
+    width: 20px;
+    font-size: xx-small;
+    color: #fff;
+    position: absolute;
+    top: 40rpx;
+    right: 5rpx;
+}
+.box{
+    width: 250rpx;
+    height: 130rpx;
+    background-color: #d7a4dd;
+    box-shadow: 0 0 10px #ca97d3;
+    border-radius: 13px;
+    float: left;
+    margin-left: 55rpx;
+    margin-top: 50rpx;
+}
+.box text{
+    width: 100%;
+    height: 20px;
+    color: #f4f1fa;
+    display: flex;
+    justify-content: center;
+    line-height: 130rpx;
+}
+/* 可约咨询师 */
+.appoint{
+    width: 90%;
+    height: 300rpx;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 100rpx;
+    height: 100rpx;
+}
+.appointPic{
+    width: 130rpx;
+    height: 130rpx;
+    background-color: #f8db73;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 0 10px #fae294;
+}
+.appointBox{
+    width: 140rpx;
+    height: 200rpx;
+    margin: 50rpx;
+    color: #707070;
+}
+.recommend{
+    width: 90%;
+    margin: 0 auto;
+    color: #707070;
+}
+.rcm{
+    margin-left: 40rpx;
+}
+.picBox{
+    width: 130rpx;
+    height: 130rpx;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fae294;
+    float: left;
+    margin: 0 40rpx;
+}
+.professorBox{
+    width: 100%;
+    height: 180rpx;
+    background-color: #f8db73;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #fae294;
+    margin: 30rpx 0;
+    display: flex;
+    align-items: center;
+}
+
+.orderCount{
+    margin-left: 20rpx;
+    font-size: smaller;
+    color: rgb(107, 106, 106);
+}
+.shengri{
+    font-size: x-small;
+    color: #d7a4dd;
+}

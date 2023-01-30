@@ -1,0 +1,31 @@
+<!--pages/qingsongdiantai/qingsongdiantai.wxml-->
+<view>
+    <view class="top">
+        <view class="word">心灵电台</view>
+          
+    </view>
+      <view class="musicName">
+          <view class="name">I am the music name</view>
+            <view class="actor">Iamtheactor</view>
+              
+      </view>
+      <swiper class="swiper-block" previous-margin="90rpx" next-margin="90rpx" current="0" bindchange="swiperChange">
+        <block wx:for="{{imgUrls}}" wx:index="{{index}}">
+            <swiper-item class="swiper-item">
+                <image mode="aspectFill" src="{{url}}" class="slide-image {{swiperIndex == index ? 'active' : ''}}"/>
+                <audio id=""  src="{{item.mpThreeUrl}}" loop="false" controls="true" poster="" name="{{item.name}}" author="{{item.author}}" 
+                    binderror="" bindplay="" bindpause="" bindtimeupdate="" bindended="">
+                    
+                </audio>
+            </swiper-item>
+        </block>
+    </swiper>
+        
+          <view class="kongzhimusic">
+              <image class="shanchu" src="/首页修改_slices/shanchu.png"></image>
+              <image class="bofang" src="/首页修改_slices/bofang.png"></image>
+              <image class="shoucang" src="/首页修改_slices/xihuan.png"></image>
+          </view>
+            
+</view>
+  

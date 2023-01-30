@@ -1,0 +1,21 @@
+{
+  "component": true,
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "",
+        "text": "",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  
+    
+  "usingComponents": {}
+}

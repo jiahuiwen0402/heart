@@ -1,0 +1,44 @@
+/* pages/tuijian/tuijian.wxss */
+.professorBox{
+    width: 100%;
+    height: 180rpx;
+    background-color: #f8db73;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px #fae294;
+    margin: 30rpx 0;
+    display: flex;
+    align-items: center;
+}
+.picBox{
+    width: 130rpx;
+    height: 130rpx;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fae294;
+    float: left;
+    margin: 0 40rpx;
+}
+.icon{
+    width: 100rpx;
+    height: 100rpx;
+}
+.shengri{
+    font-size: x-small;
+    color: #d7a4dd;
+}
+.recommend{
+    width: 90%;
+    margin: 0 auto;
+    color: #707070;
+}
+.rcm{
+    margin-left: 40rpx;
+}
+.orderCount{
+    margin-left: 20rpx;
+    font-size: smaller;
+    color: rgb(107, 106, 106);
+}

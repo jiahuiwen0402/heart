@@ -1,0 +1,75 @@
+{
+  "pages":[
+    "pages/tiaozhuan/tiaozhuan",
+    "pages/denglu/denglu",
+    "pages/home/home",
+    "pages/relax/relax",
+    "pages/ask/ask",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/asker/asker",
+    "pages/history/history",
+    "pages/dingdan/dingdan",
+    "pages/mineZixun/mineZixun",
+    "pages/minePinggu/minePinggu",
+    "pages/mineMsg/mineMsg",
+    "pages/gerenxinxi/gerenxinxi",
+    "pages/dianjijinxinpinggu/dianjijinxinpinggu",
+    "pages/qingsongdiantai/qingsongdiantai",
+    "pages/jianyashipin/jianyashipin",
+    "pages/weiwanchengzixun/weiwanchengzixun",
+    "pages/yiwanchengzixun/yiwanchengzixun",
+    "pages/daiwancheng/daiwancheng",
+    "pages/shoucang/shoucang",
+    "pages/xiugaixx/xiugaixx",
+    "pages/xiugaijianjie/xiugaijianjie",
+    "pages/zixun/zixun",
+    "pages/kefu/kefu",
+    "pages/tuijian/tuijian",
+    "pages/zuixinruzhu/zuixinruzhu",
+    "pages/shezhi/shezhi",
+    "pages/xieyi/xieyi"
+    
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f9dc74",
+    "navigationBarTitleText": "心释放",
+    "backgroundColor": "#f7fbfe",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "/首页修改_slices/首页_1.png",
+        "selectedIconPath": "/首页修改_slices/首页.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/relax/relax",
+        "iconPath": "/首页修改_slices/释压1.png",
+        "selectedIconPath": "/首页修改_slices/释压已选.png",
+        "text": "释压"
+      },
+      {
+        "pagePath": "pages/ask/ask",
+        "iconPath": "/首页修改_slices/咨询.png",
+        "selectedIconPath": "/首页修改_slices/咨询已选.png",
+        "text": "咨询"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/首页修改_slices/我的.png",
+        "selectedIconPath": "/首页修改_slices/我的_1.png",
+        "text": "我的"
+      }
+    ],
+    "selectedColor": "#868686"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

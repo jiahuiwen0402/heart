@@ -1,0 +1,82 @@
+<!--pages/jianyashipin/jianyashipin.wxml-->
+<view class="top">
+        <view class="word">减压小视频</view>
+</view>
+
+<view>
+    <view class="content" wx:for="{{shiping}}">
+        <view class="name">
+            <view class="touxiangbox">
+                <image class="touxiang" src="/PNG/256 px/frank.png" binderror="" bindload="" />
+                  
+            </view>
+              <view>
+                  <view>
+                      {{item.name}}
+                  </view>
+                    <view class="fensi">
+                        <text>粉丝：</text>
+                        <text>12 </text>
+                        <text>关注：</text>
+                        <text>100 </text>
+                    </view>
+                      
+              </view>
+                
+        </view>
+          <view class="video">
+                 <view class="contvideo">
+                    <video class="" src="{{item.mpFourUrl}}" autoplay="true" loop="false" muted="false" direction="0" show-fullscreen-btn="false" show-play-btn="false" picture-in-picture-show-progress="false"
+                        bindplay="" bindpause="" bindended="" bindtimeupdate="" bindwaiting="" binderror="" controls='{{controls}}'> </video>
+                </view>
+                <!-- 作者的文字 -->
+                  <view class="text" style="display:{{display1}}">
+
+                        <view class="leixin"></view>
+                    
+                      <view class="zuozhetext">
+                          {{item.text}}
+                      </view>
+                        <view class="dianzanpinglun">
+                            <image class="like" src="/首页修改_slices/like.png"></image>
+                            <image class="comment" src="/首页修改_slices/comment.png" bindtap="binddianji"></image>
+                        </view>
+                  </view>
+                  
+                      <!-- 视频的评论 -->
+                    <scroll-view class="videopinglun" style="display:{{display2}}" scroll-y="true">
+                      <view class="meigeplun">
+                          <view>
+                              <image class="touxiang" src="/PNG/256 px/john.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                          </view>
+                            <view>
+                                <view class="pinglunname">小美</view>
+                                <view classs="pingluncontent">别忘了跟自己说 辛苦啦！</view>
+                            </view>
+                              <view>
+                                  <image class="pinglunlike" src="/首页修改_slices/like.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                                    
+                              </view>
+                                
+                      </view>
+                  </scroll-view>
+                    
+                  
+        
+                    
+                  
+                    
+          </view>
+            
+    </view>
+</view>
+
+<view class="send">
+        <view>
+            <input class="sendinput" type="text" placeholder="点击发表"/>
+            <image class="sendimg" src="/首页修改_slices/发送.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+          
+</view>
+  <view class="jianxi"></view>
+    

@@ -1,0 +1,55 @@
+/* pages/mine/mine.wxss */
+.top{
+    width: 100%;
+    height: 250rpx;
+    background-color: #f9dc74;
+    display: flex;
+    
+}
+.touxiang{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    margin: 40rpx;
+}
+.shezhi{
+    width: 70rpx;
+    height: 70rpx;
+    position: absolute;
+    right: 50rpx;
+    top: 80rpx;
+}
+.name{
+    line-height: 80rpx;
+    margin-top: 30rpx;
+}
+.xiugai{
+    font-size: smaller;
+    color: #a19a73;
+}
+.myName{
+    color:#6f7469 ;
+}
+.myMag{
+    width: 100%;
+    height: 100rpx;
+    background-color: #f9faf5;
+    box-shadow: 10 0 10rpx #f1f2ed;
+    line-height: 100rpx;
+    margin: 30rpx auto;
+}
+.smallicon{
+    width: 50rpx;
+    height: 50rpx;
+    vertical-align: middle;
+    margin: 0 100rpx;
+}
+.word{
+    width: 400rpx;
+    height: 50rpx;
+    display: inline-block;
+    text-align: center;
+}
+.data{
+    margin-top: 50rpx;
+}

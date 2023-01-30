@@ -1,0 +1,12 @@
+<!--pages/shoucang/shoucang.wxml-->
+<view class="shoucangzixunshi" wx:for="{{zixunshi}}">
+    <view>
+        <image class="touxiang" src="/PNG/256 px/alfred.png" binderror="" bindload="" />
+    </view>
+    <view>
+        <view>{{item.username}}</view>
+        <view class="jibie">{{item.birthday}}</view>
+    </view>
+    <view><button class="yuyue" style="width:200rpx;margin-left:50rpx;" bindtap="yuyue" data-index="{{index}}">点击预约</button></view>
+</view>
+

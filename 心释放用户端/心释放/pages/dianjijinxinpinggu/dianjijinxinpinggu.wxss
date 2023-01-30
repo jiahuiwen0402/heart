@@ -1,0 +1,34 @@
+/* pages/dianjijinxinpinggu/dianjijinxinpinggu.wxss */
+page{
+    background-color: #f9dc74;
+    color: #565250;
+}
+.dianji{
+    width: 300rpx;
+    height: 300rpx;
+    background-color: #efc0ba;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxxiong{
+    position: absolute;
+    bottom: 0rpx;
+    left: 150rpx;
+}
+.xiong{
+    width: 450rpx;
+    height: 500rpx;
+    z-index: 1;
+}
+.lishi{
+    height: 100rpx;
+    margin-top: 300rpx;
+    background-color: #efc0ba;
+    z-index: 9999;
+    border-radius: 20rpx;
+    color: #565250 ;
+    line-height: 70rpx;
+}

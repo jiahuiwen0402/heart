@@ -1,0 +1,33 @@
+<!--pages/history/history.wxml-->
+<view>
+    <view class="top">
+        <view>
+            <image class="beijing" src="/首页修改_slices/背景图.jpg" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+        <view>
+            <image class="touxiang" src="{{myPic}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+    </view>
+    <view class="content" wx:for="{{myhistory}}">
+        <view class="year">2020年</view>
+          <view class="historyBox">
+              <view class="numberbox">
+                    <view class="yellow"></view>
+                  <text class="date">{{item.publishTime}}</text>
+              </view>
+                <view class="contentMsg">
+                    <view class="fabiao">
+                        {{item.content}}
+                    </view>
+                    <image class="tupian" src="{{item.picture}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                      
+                </view>
+                  
+          </view>
+           
+    </view>
+      
+    
+        
+</view>
+  

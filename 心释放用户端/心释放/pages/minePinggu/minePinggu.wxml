@@ -1,0 +1,36 @@
+<!--pages/minePinggu/minePinggu.wxml-->
+<view>
+<!-- 上 -->
+    <view class="picture">
+        <canvas canvas-id="customCanvas">
+        </canvas>
+    </view>
+    <!-- 中 -->
+      <view class="jianyi">
+          <view class="wenzi">
+            您当前心理评估严重综合程度向低趋近，说明你当前心理非常健康~不用太过担心
+          </view>
+            
+      </view>
+      <!-- 下 -->
+        <view cla-ss="riqi">
+            <view class="lishi">
+              <text>2020.6.21</text>
+              <text class="di">低</text>
+            </view>
+            <view class="lishi">
+              <text>2020.6.21</text>
+              <text class="gao">高</text>
+            </view>
+            <view class="lishi">
+              <text>2020.6.21</text>
+              <text class="gao">高</text>
+            </view>
+
+
+        </view>
+          
+
+
+</view>
+  

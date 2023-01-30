@@ -1,0 +1,47 @@
+<!--pages/gerenxinxi/gerenxinxi.wxml-->
+<view>
+    <view class="top">
+        个人信息
+    </view>
+      
+
+    <view>
+        <!-- 头像 -->
+    <view class="xiugaiBox">
+        <view class="xiaobiaoti">头像</view>
+        <view class="box"><image class="touxiang" src="{{myPic}}"  binderror="" bindload="" /></view>
+    </view>
+    <!-- 昵称 -->
+      <view class="xiugaiBox">
+          <view class="xiaobiaoti">昵称</view>
+          <view class="box">{{myName}}</view>
+      </view>
+        <!-- 性别 -->
+          <view class="xiugaiBox">
+                <view class="xiaobiaoti">性别</view>
+                <view class="box">{{mysex}}</view>
+          </view>
+          
+          <navigator class="" target="" url="../xiugaixx/xiugaixx" hover-class="navigator-hover" open-type="navigate">
+            <!-- 生日 -->
+            <view class="xiugaiBox">
+                <view class="xiaobiaoti">生日</view>
+                <view class="box">{{birthday}}</view>
+                <image class="xiugai" src="/首页修改_slices/qianjin.png" binderror="" bindload="" />
+            </view>
+          </navigator>
+            
+          <navigator class="" target="" url="../xiugaijianjie/xiugaijianjie" hover-class="navigator-hover" open-type="navigate">
+            <!-- 简介 -->
+              <view class="xiugaiBox">
+                    <view class="xiaobiaoti">简介</view>
+                    <view class="box">{{briefIntroduction}}</view>
+                  <image class="xiugai" src="/首页修改_slices/qianjin.png" binderror="" bindload="" />
+              </view>
+          </navigator>
+            
+              
+    </view>
+      
+</view>
+  

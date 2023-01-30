@@ -1,0 +1,88 @@
+<!--pages/ask/ask.wxml-->
+<view>
+<!-- 顶部 -->
+    <view class="top">
+        <view class="search">
+            <input type="text" placeholder="搜索咨询师或问题类型"/>
+            <view class="searchicon">
+                <image class="searchpic" src="/首页修改_slices/搜索.png" binderror="" bindload="" />
+            </view>
+            <navigator class="" target="" url="../dingdan/dingdan" hover-class="navigator-hover" open-type="navigate">
+                <view class="dingdan">
+                    <image class="dingdanicon" src="/咨询_slices/dingdan.png" binderror="" bindload="" />
+                    <span>订单</span>
+                </view>
+            </navigator>
+              
+            
+        </view>
+        <view>
+            <navigator class="" target="" url="../tuijian/tuijian" hover-class="navigator-hover" open-type="navigate">
+                <view class="box">
+                    <text class="ask">我要咨询</text>
+                </view>
+            </navigator>
+              
+            
+              <view class="box" bindtap="xiangdang">
+                  <text class="todo">我想当咨询师</text>
+              </view>
+                
+        </view>
+    </view>
+    <!-- 可约咨询师 -->
+    <view class="appoint">
+        <navigator class="" target="" url="../zuixinruzhu/zuixinruzhu" hover-class="navigator-hover" open-type="navigate">
+            <view class="appointBox">
+                <text class="">最新入驻</text>
+                <view class="appointPic">
+                    <image class="icon" src="/PNG/256 px/emily.png" binderror="" bindload="" />
+                    
+                </view>
+                
+            </view>
+        </navigator>
+          
+        
+          <view class="appointBox">
+                <text class="">最佳人气</text>
+                <view class="appointPic">
+                    <image class="icon" src="/PNG/256 px/finn.png" binderror="" bindload="" />
+                  
+                </view>
+          </view>
+            <view class="appointBox">
+                <text class="">现在可约</text>
+                <view class="appointPic">
+                    <image class="icon" src="/PNG/256 px/hanna.png" binderror="" bindload="" />
+                  
+                </view>
+            </view>
+    </view>
+<!-- 为您推荐 -->
+    <view class="recommend">
+        <text class="rcm">为您推荐</text>
+          <view class="professor">
+              <view class="professorBox" wx:for="{{tuijianzixunshi}}" bindtap="dianji" data-index="{{index}}">
+                    <view class="picBox">
+                        <image class="icon" src="/PNG/256 px/andy.png" binderror="" bindload="" />
+                    </view>
+                    <view>
+                        <view>
+                            <text class="username">{{item.username}}</text>
+                            <text class="orderCount">已有咨询：{{item.objectCount}}</text>
+                        </view>
+                        <view class="qianming">{{item.briefIntroduction}}</view>
+                        <view class="shengri">{{item.birthday}}</view>
+                    </view>
+              </view>
+            </view>
+    </view>
+  
+      
+    
+
+</view>
+  
+
+

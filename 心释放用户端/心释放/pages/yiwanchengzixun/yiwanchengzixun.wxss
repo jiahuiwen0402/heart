@@ -1,0 +1,70 @@
+/* pages/yiwanchengzixun/yiwanchengzixun.wxss */
+.purple{
+    width: 100%;
+    height: 300rpx;
+    background-color: #d8a5dd;
+}
+.zixunshi{
+    width: 500rpx;
+    height: 300rpx;
+    background-color: #fff;
+    border-radius: 50rpx;
+    position: absolute;
+    top: 150rpx;
+    left: 125rpx;
+    box-shadow: 0 0 10rpx rgb(194, 193, 193);
+}
+.content{
+    width: 90%;
+    height: 800rpx;
+    background-color: #fff;
+    border-radius: 60rpx;
+    position: absolute;
+    top: 480rpx;
+    left: 40rpx;
+    box-shadow: 0 0 10rpx rgb(194, 194, 194);
+}
+.touxiang{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+}
+.touxiangbox{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+    margin: 0 10rpx;
+}
+.mingpiantop{
+    width: 100%;
+    height: 230rpx;
+    display: flex;
+    align-items: center;
+}
+.jingyan{
+    color: gray;
+    font-size: x-small;
+    line-height: 40rpx;
+}
+.lianxi{
+    background-color: #d8a5dd;
+    color: #fff;
+    height: 50rpx;
+    font-size: x-small;
+    border-radius: 50rpx;
+    line-height: 20rpx;
+}
+
+.contentbox{
+    width: 85%;
+    height: 92%;
+    margin: 0 auto;
+}
+.box{
+    width: 100%;
+    height: 150rpx;
+    line-height: 50rpx;
+}
+.answer{
+    color: gray;
+}

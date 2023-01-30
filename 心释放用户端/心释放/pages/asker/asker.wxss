@@ -1,0 +1,68 @@
+/* pages/asker/asker.wxss */
+page{
+    background-color: #f9dc74;
+}
+.touxiang{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+}
+.touxiangbox{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    box-shadow: 0 0 10rpx rgb(131, 130, 130);
+    background-color: #fff;
+    margin: 0 auto;
+}
+.top{
+    width: 300rpx;
+    height:300rpx;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.middle{
+    width: 100%;
+    background-color: #fff;
+    border-top-left-radius: 100rpx;
+    border-top-right-radius: 100rpx;
+}
+.feiyong{
+    width: 80%;
+    height: 200rpx;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20rpx;
+    border-bottom: 1px solid rgb(168, 167, 167);
+}
+.box{
+    width: 200rpx;
+    height: 200rpx;
+    text-align: center;
+    line-height: 80rpx;
+}
+.ziliao,.zhuanchang{
+    font-size: small;
+}
+.kefuimg,.shoucangimg{
+    width: 50rpx;
+    height: 50rpx;
+}
+.yuyue{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+}
+.yuyue view{
+    margin: 0 20rpx;
+    font-size: small;
+}
+.button{
+    background-color: #d7a4dd;
+    color: rgb(80, 79, 79);
+}

@@ -1,0 +1,45 @@
+/* pages/denglu/denglu.wxss */
+.top{
+    background-color: #d7a4dd;
+    width: 100%;
+    height: 600rpx;
+}
+.wechat{
+    width: 200rpx;
+    height: 150rpx;
+    margin-top: 100rpx;
+}
+.topbox{
+    width: 450rpx;
+    height: 550rpx;
+    margin: 0 auto;
+    color: #fef1fe;
+    font-size: small;
+    text-align: center;
+    padding-top: 50rpx;
+}
+.text{
+    width: 100%;
+    height: 200rpx;
+    line-height: 100rpx;
+    margin-top: 50rpx;
+}
+.btn button{
+    margin-top: 250rpx;
+   
+}
+.word{
+    width: 500rpx;
+    height: 60rpx;
+    margin: 0 auto;
+    font-size: smaller;
+    line-height: 60rpx;
+    margin-top: 100rpx;
+}
+.left{
+    float: left;
+    font-size: small;
+}
+.right{
+    color: dodgerblue;
+}

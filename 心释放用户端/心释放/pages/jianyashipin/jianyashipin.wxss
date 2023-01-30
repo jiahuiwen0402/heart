@@ -1,0 +1,138 @@
+/* pages/jianyashipin/jianyashipin.wxss */
+page{
+    background-color: #fffbf0;
+}
+.top{
+    width: 100%;
+    height: 100rpx;
+    background-color: #f9dc74;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.word{
+    color:#fff;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fffbf0;
+}
+.name{
+    width: 100%;
+    height: 150rpx;
+    background-color: #fff;
+    border-radius: 20rpx;
+    box-shadow: 0 0 20rpx rgb(223, 222, 222);
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    display: flex;
+    align-items: center;
+}
+.touxiang{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+}
+.touxiangbox{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    margin: 0 30rpx;
+    box-shadow: 0 0 20rpx rgb(202, 202, 202);
+    background-color: rgb(250, 215, 215);
+}
+.fensi{
+    color: gray;
+    font-size: x-small;
+    margin-top: 20rpx;
+}
+video{
+    width: 100%;
+    height: 800rpx;
+    border-radius: 30rpx;
+}
+.video{
+    position: relative;
+}
+.text{
+    width: 100%;
+    background-color: rgb(124, 124, 124,.7);
+    position: absolute;
+    bottom: 0rpx;
+    color: #fff;
+    padding: 20rpx 0rpx;
+    border-radius: 30rpx;
+}
+.send{
+    width: 100%;
+    height: 90rpx;
+    position: fixed;
+    background-color: #fff;
+    bottom: 0rpx;
+    left: 30rpx;
+}
+.sendimg{
+    width: 50rpx;
+    height: 50rpx;
+    border-radius: 10rpx;
+    position: absolute;
+    right: 90rpx;
+    bottom: 20rpx;
+}
+.sendinput{
+    width: 90%;
+    height: 60rpx;
+    background-color: rgb(228, 227, 227);
+    margin-top: 20rpx;
+    border-radius: 30rpx;
+    text-align: center;
+}
+.jianxi{
+    width: 100%;
+    height: 100rpx;
+}
+.like,.comment{
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: 20rpx;
+}
+.dianzanpinglun{
+    float: right;
+    margin: 0 20rpx;
+}
+.videopinglun{
+    width: 100%;
+    height: 400rpx;
+    background-color: rgba(104, 104, 104, 0.7);
+    position: absolute;
+    bottom: 0rpx;
+    color: #fff;
+    padding: 20rpx 0rpx;
+    border-radius: 30rpx;
+    font-size: xx-small;
+}
+.touxiang{
+    width: 90rpx;
+    height: 90rpx;
+}
+.meigeplun{
+    width: 100%;
+    height: 120rpx;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(209, 207, 207);
+}
+
+.pinglunname{
+    color: lawngreen;
+}
+.pingluncontent{
+    line-height: 30rpx;
+}
+.pinglunlike{
+    width: 50rpx;
+    height: 50rpx;
+    position: absolute;
+    right: 50rpx;
+}

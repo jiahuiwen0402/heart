@@ -1,0 +1,37 @@
+<!--pages/search/search.wxml-->
+<view>
+    <view class="input">
+        <image src="/首页修改_slices/搜索.png" class="search"></image>
+        <input type="text" placeholder="大家都在搜“放松”" name="seachinput" placeholder-style="color: #fff;" />
+    </view>
+
+    <view class="nowa">
+        <view class="nowadays">
+            最近搜过
+        </view>
+        <view class="but nowabtn">
+            <view  class="text">减压</view>
+            <view class="text">焦虑</view>
+            <view class="text">考前综合症</view>
+            
+        </view>
+          
+    </view>
+      <view class="other">
+          <view class="others">
+              大家都在搜
+          </view>
+          <view class="but otherbtn">
+            <view class="text">强迫症</view>
+            <view class="text">考前放松</view>
+            <view class="text">产后抑郁</view>
+            <view class="text">咨询小科普</view>
+            <view class="text">精神分裂症</view>
+            <view class="text">多动症</view>
+          </view>
+            
+            
+      </view>
+        
+</view>
+  

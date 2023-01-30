@@ -1,0 +1,35 @@
+/* pages/shoucang/shoucang.wxss */
+page{
+    background-color: #fffbf0;
+}
+.touxiang{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+}
+.shoucangzixunshi{
+    width: 90%;
+    height: 160rpx;
+    margin: 20rpx auto;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10rpx rgb(185, 184, 184);
+    border-radius: 30rpx;
+    position: relative;
+}
+.shoucangzixunshi view{
+    margin-left: 20rpx;
+}
+.yuyue{
+    font-size: small;
+    border-radius: 20rpx;
+    color: #fff;
+    background-color: #f9dc74;
+    position: absolute;
+    right: 50rpx;
+    top: 50rpx;
+}
+.jibie{
+    color: rgb(116, 116, 116);
+}

@@ -1,0 +1,30 @@
+<view>
+    <view class="top">
+        <image class="rabbit" src="/释压_slices/兔子.png" />
+        
+    </view>
+    <view class="mid">
+        <navigator class="" target="" url="../qingsongdiantai/qingsongdiantai" hover-class="none" open-type="navigate">
+            <view class="vidio">
+                <view class="text">   
+                    轻松电台  
+                </view>
+            </view>
+        </navigator>
+          <navigator class="" target="" url="../jianyashipin/jianyashipin" hover-class="none" open-type="navigate">
+              <view class="vidio box">
+                <view class="text">
+                    减压小视频
+                </view>
+            </view>
+          </navigator>
+            
+        
+        
+    </view>
+    <view class="bot">
+        <image class="bear" src="/释压_slices/熊.png"/>
+          
+    </view>
+</view>
+  

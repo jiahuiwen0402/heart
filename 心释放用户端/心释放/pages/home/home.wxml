@@ -1,0 +1,53 @@
+<view class="home">
+  <!-- 搜索框 -->
+<navigator class="" target="" url="../search/search" hover-class="none" open-type="navigate">
+  <view class="input">
+    <image src="/首页修改_slices/搜索.png" class="search" ></image>
+    <input type="text" placeholder="大家都在搜“放松”" name="seachinput" />
+  </view>
+</navigator>
+  
+  <!-- 发表心情 -->
+  <view class="send">
+    <input type="text" bindinput ="valueInput" placeholder="点击发表你今天的心情吧~~"/>
+    <image class="picture" src="/首页修改_slices/图片.png" bindtap="chooseimage"></image>
+    <image class="vidio" src="/首页修改_slices/视频.png"></image>
+    <image class="sendmyday" src="/首页修改_slices/发送.png" bindtap="send"></image>
+  </view>
+  <!-- 点击心理评估按钮 -->
+  <navigator class="" target="" url="../dianjijinxinpinggu/dianjijinxinpinggu" hover-class="none" open-type="navigate">
+    <view class="button">
+      <image src="/首页修改_slices/xin.png" class="xin"></image>
+      <button style="width: 650rpx;">点击此处进行心理健康评估</button>
+    </view>
+  </navigator>
+    
+   
+  <scroll-view class="friends" scroll-x="true" style="width: 100%">
+    <view class="fri1" wx:for="{{mood}}">
+      <view class="top">
+        <image class="touxiang" src="/首页修改_slices/头像.png"/>
+        <span>{{item.userId}}</span>
+        <view>{{item.publishTime}}</view>
+      </view>
+      <view class="white">
+        <text class="" selectable="false" space="false" decode="false">
+          {{item.content}}
+        </text>
+         <image class="fabiaoimg" src="{{item.picture}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+      </view>
+      <view class="top">
+        <image class="msg" src="/首页修改_slices/消息.png" />
+        <image class="good" src="/首页修改_slices/点赞.png" />
+        <text></text>
+          
+      </view>
+        
+    </view>
+  </scroll-view>
+      
+    
+
+
+</view>
+

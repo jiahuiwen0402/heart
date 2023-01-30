@@ -1,0 +1,25 @@
+<!--pages/zixun/zixun.wxml-->
+<view class="name">
+    用户一
+</view>
+  
+<view>
+    <view class="other">
+        <image class="touxiang duifang" src="/PNG/256 px/emily.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+          <text class="liaotian duifangliaotian">您好，请问您的咨询费用怎么算？</text>
+    </view>
+      
+</view>
+  <view>
+      <view class="mine"> 
+        <text class="liaotian">【自动回复】您好，收费标准是300元一次哦。</text>
+        <image class="touxiang ziji" src="/PNG/256 px/emma.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+    </view>
+  </view>
+    <view class="bottom">
+        <input class="shuru" type="text" placeholder="点击开始聊天吧！"/>
+        <image class="gengduo" src="/首页修改_slices/icon-.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+          
+    </view>
+      
+

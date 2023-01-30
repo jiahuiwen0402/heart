@@ -1,0 +1,49 @@
+/* pages/minePinggu/minePinggu.wxss */
+.picture{
+    width: 90%;
+    height: 400rpx;
+    margin: 50rpx auto;
+    background-color: #ffffff;
+    border-radius: 30rpx;
+    box-shadow: 0 0 20rpx rgb(187, 186, 186);
+}
+.jianyi{
+    width: 90%;
+    height: 200rpx;
+    background-color: #f9dc74;
+    margin: 0 auto;
+    border-radius: 30rpx;
+    box-shadow: 0 0 20rpx rgb(187, 186, 186);
+    display: flex;
+    align-items: center;
+}
+.wenzi{
+    width: 100%;
+    height: 150rpx;
+    line-height: 50rpx;
+}
+.riqi{
+    width: 90%;
+    background-color: rgb(236, 193, 193);
+    margin: 50rpx auto;
+}
+.lishi{
+    width: 90%;
+    height: 90rpx;
+    margin: 50rpx auto;
+    text-align: center;
+    border-bottom: 1px solid rgb(133, 132, 132);
+}
+.di,.gao{
+    margin-left: 250rpx;
+}
+.di{
+    color: rgb(3, 172, 3);
+}
+.gao{
+    color: red;
+}
+canvas{
+    width: 100%;
+    height: 100%;
+}

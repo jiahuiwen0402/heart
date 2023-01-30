@@ -1,0 +1,50 @@
+<!--pages/yiwanchengzixun/yiwanchengzixun.wxml-->
+<view>
+    <view class="purple">
+        
+    </view>
+      <view class="zixunshi">
+        <view class="mingpiantop">
+          <view class="touxiangbox">
+            <image class="touxiang" src="/PNG/256 px/julia.png" binderror="" bindload="" />
+          </view>
+            <view class="xinming">
+              <view class="name">姓名</view>
+              <view class="jingyan">
+                <view>级别 xx级咨询师</view>
+                <view>jingyan2000+hour</view>
+              </view>
+            </view>
+        </view>
+        <view>
+          <button class="lianxi" style="width:85%">联系咨询师</button>
+        </view>
+                
+      </view>
+        <view class="content">
+            <view class="contentbox">
+              <view class="box">
+                <view class="title">预约时间</view>
+                  <view class="answer">14:00~16:30</view>
+              </view>
+                <view class="box">
+                  <view class="title">支付金额</view>
+                  <view class="answer">300元</view>
+                </view>
+                <view class="box">
+                  <view class="title">咨询方式</view>
+                  <view class="answer">面对面咨询</view>
+                </view>
+                <view class="box">
+                  <view class="title">预约地点</view>
+                  <view class="answer">XX区XX楼道XX小店XX楼</view>
+                </view>
+                 <view class="box">
+                  <view class="title">我的评价</view>
+                  <view class="answer">咨询师人超级好！！我的问题也得到了及时解决，下次还要找他</view>
+                </view>
+            </view>
+              
+        </view>
+
+</view>

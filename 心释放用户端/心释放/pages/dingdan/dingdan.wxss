@@ -1,0 +1,64 @@
+/* pages/dingdan/dingdan.wxss */
+/* 选项卡 */
+.swiper-tab{
+	width: 100%;
+	border-bottom: 2rpx solid #777777;
+	text-align: center;
+    line-height: 80rpx;
+    background-color: #f9dc74;
+}
+.swiper-tab-list{  
+    font-size: 30rpx;
+    display: inline-block;
+	width: 40%;
+	color: #a7a6a6;
+}
+.on{ 
+    color: #fff;
+    background-color: #d7a4dd;
+    border-bottom: 5rpx solid #fff;
+}
+ 
+.swiper-box{ 
+    display: block; 
+    height: 100%; 
+    width: 100%; 
+    overflow: hidden; 
+}
+.swiper-box view{
+	text-align: center;
+}
+
+/* 内容 */
+.zixunshi{
+    width: 95%;
+    height: 200rpx;
+    margin: 20rpx auto;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #a7a6a6;
+}
+.touxiang{
+    width: 110rpx;
+    height: 110rpx;
+    border-radius: 50%;
+    margin: 0 40rpx;
+}
+.zixunshixingming{
+    line-height: 60rpx;
+}
+
+.date{
+    font-size: x-small;
+}
+.time{
+    font-size: x-small;
+    margin-left: 50rpx;
+}
+.pingjia{
+    width: 90rpx;
+    height: 90rpx;
+    /* position: absolute;
+    right: 30rpx; */
+    margin-left: 40rpx;
+}
