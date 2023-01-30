@@ -1,0 +1,23 @@
+<!--pages/yajin/yajin.wxml-->
+<view class="ruzhu">
+    <view class="top">
+        <view>
+            <image class="biaozhi" src="/图片/形状 9.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+        <view></view>
+        <view>入驻成为咨询师需要缴纳300元押金</view>
+    </view>
+    <view class="text">
+        <view>  
+            咨询师在注册成为咨询师到申请退出咨询师工作期间。没有背用户成功举报、没有不良咨询记录以及被踩百分比≤80%的咨询师，经过平台核实信息无误后可以申请退回押金。
+        </view>
+        <view>  
+            申请注册咨询师后，点击<text class="black">我的——设置——押金管理</text>，缴纳押金后即可通过成为用户提供咨询服务获取报酬。
+        </view>
+          
+            
+        
+    </view>
+    
+</view>
+

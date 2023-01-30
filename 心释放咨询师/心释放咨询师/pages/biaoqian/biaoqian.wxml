@@ -1,0 +1,9 @@
+<!--pages/biaoqian/biaoqian.wxml-->
+<view>
+    <view class="shuru">
+        <input class="input" type="text" bindinput="value" placeholder="添加简介"/>
+    </view>
+      <button class="save" bindtap="save">保存</button>
+
+</view>
+  

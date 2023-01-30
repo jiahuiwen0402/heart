@@ -1,0 +1,36 @@
+<!--pages/caiwuguanli/caiwuguanli.wxml-->
+
+<view>
+    <view class="backgc">
+        <view class="zongshouru">
+            <view class="wenzi">
+                <view>累计收入</view>
+                <view>999.99元</view>
+            </view>
+        </view>
+    </view>
+    <view>
+        <view class="yonghu">
+            <view class="jinge">
+                <text>用户一咨询收入</text>
+                <text class="number">+300</text>
+            </view>
+            <view class="leiji">
+                <text>2020/07/08 18:30</text>
+                <text class="total">累计收入：999.99</text>
+            </view>
+        </view>
+            <view class="yonghu">
+                <view class="jinge">
+                    <text>用户一咨询收入</text>
+                    <text class="number">+300</text>
+                </view>
+                <view class="leiji">
+                    <text>2020/07/08 18:30</text>
+                    <text class="total">累计收入：999.99</text>
+                </view>
+            </view>
+    </view>
+
+</view>
+  

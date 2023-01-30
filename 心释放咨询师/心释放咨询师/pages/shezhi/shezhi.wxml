@@ -1,0 +1,26 @@
+<!--pages/shezhi/shezhi.wxml-->
+<view>
+    <navigator class="" target="" url="../xieyi/xieyi" hover-class="navigator-hover" open-type="navigate">
+        <view class="box">
+            <view>使用协议</view>
+            <image class="more" src="/图片/qianjin.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+    </navigator>
+      <navigator class="" target="" url="../yajin/yajin" hover-class="navigator-hover" open-type="navigate">
+        <view class="box">
+            <view>押金管理</view>
+            <image class="more" src="/图片/qianjin.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+      </navigator>
+        <navigator class="" target="" url="../xingxi/xingxi" hover-class="navigator-hover" open-type="navigate">
+        <view class="box">
+            <view>编辑信息</view>
+            <image class="more" src="/图片/qianjin.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+        </navigator>
+          
+    
+      
+    
+</view>
+  

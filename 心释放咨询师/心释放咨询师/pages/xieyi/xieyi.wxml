@@ -1,0 +1,36 @@
+<!--pages/xieyi/xieyi.wxml-->
+<view class="ruzhu">
+    <view class="top">
+        <view>
+            <image class="biaozhi" src="/图片/形状 9.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+        <view>心释放用户服务使用协议</view>
+        <view>欢迎您使用心释放</view>
+    </view>
+    <view class="text">
+        <view>  
+            协议生效
+        </view>
+        <view class="text2">  
+            当您按照注册页面提示填写信息、阅读并同意本协议且完成全部注册程序后，即表示您已充分阅读、理解并接受本协议的全部内容且成为心释放在线平台用户。您的注册行为将被认为是对本协议全部条款无保留的接受和遵守。
+        </view>
+        <view class="number">
+            <view>  
+                一、服务
+            </view>
+            <view>  
+                二、用户的权利和责任
+            </view>
+            <view>  
+                三、隐私声明
+            </view>
+            <view>  
+                四、其它规定
+            </view>
+        </view>
+          
+        
+    </view>
+    
+</view>
+

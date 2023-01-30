@@ -1,0 +1,68 @@
+/* pages/sixin/sixin.wxss */
+.name{
+    width: 100%;
+    height: 80rpx;
+    background-color: #f5e492;
+    text-align: center;
+    color: #fff;
+    line-height: 80rpx;
+}
+.touxiang{
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 50%;
+    box-shadow: 0 0 10rpx rgb(207, 207, 207);
+}
+.liaotian{
+    width: 500rpx;
+    background-color: #f5e492;
+    line-height: 50rpx;
+    display: inline-block;
+    box-shadow: 0 0 10rpx rgb(196, 194, 194);
+    border-radius: 10rpx;
+}
+.duifangliaotian{
+    background-color: #fff;
+    margin: 50rpx;
+    
+}
+.shuru{
+    width: 500rpx;
+    height: 60rpx;
+    background-color: rgb(235, 235, 235);
+}
+.bottom{
+    width: 100%;
+    height: 100rpx;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid rgb(209, 209, 209);
+}
+.gengduo{
+    width: 50rpx;
+    height: 50rpx;
+}
+.mine{
+    margin-left: 150rpx;
+}
+.shuru{
+    width: 600rpx;
+    height: 60rpx;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20rpx;
+    margin: 0 30rpx;
+}
+.gengduo{
+    width: 50rpx;
+    height: 50rpx;
+}
+.bottom{
+    width: 100%;
+    height: 100rpx;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+}
+

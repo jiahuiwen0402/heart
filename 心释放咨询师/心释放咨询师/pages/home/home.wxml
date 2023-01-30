@@ -1,0 +1,62 @@
+<!--pages/home/home.wxml-->
+<view class="top"> 
+    
+</view>
+  <view class="mid">
+      <view class="text">
+          <view>
+            <text>今天是你成为心释放咨询师的第</text>
+            <text class="number">99</text>
+            <text>天</text>
+          </view>
+          <view>
+            <text>累计咨询服务对象共</text>
+            <text class="number">9</text>
+            <text>位</text>
+          </view>
+          <view>
+            <text>累计成功订单共</text>
+            <text class="number">11</text>
+            <text>例</text>
+          </view>
+      </view>
+        
+  </view>
+    <view class="bot">
+        <view class="box">
+            <navigator class="tiaozhuan"  target="" url="../yuyuetixing/yuyuetixing" hover-class="none" open-type="navigate">
+              <view class="view" style="width: 250rpx;">
+                <image class="homeimg" src="/图片/tixing (2).png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                  <view>预约提醒</view>
+              </view>
+            </navigator>
+
+            <navigator class="tiaozhuan" target="" url="../serch/serch" hover-class="none" open-type="navigate">
+              <view class="view" style="width: 250rpx;">
+                <image class="homeimg" src="/图片/sousuo-2.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                <view>万能搜索</view>
+                
+              </view>
+            </navigator>
+              
+            <navigator class="tiaozhuan" target="" url="../caiwuguanli/caiwuguanli" hover-class="none" open-type="navigate">
+               <view class="view" style="width: 250rpx;">
+                  <image class="homeimg" src="/图片/finance.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                  <view>财务管理</view>
+                  
+               </view>
+            </navigator>
+
+            <navigator class="tiaozhuan" target="" url="../yuyueguanli/yuyueguanli" hover-class="none" open-type="navigate">
+              <view class="view" style="width: 250rpx;">
+                <image class="homeimg" src="/图片/yuyue.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                <view>预约管理</view>
+                
+              </view>
+            </navigator>
+              
+            
+        </view>
+          
+    </view>
+      

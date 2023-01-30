@@ -1,0 +1,42 @@
+/* pages/caiwuguanli/caiwuguanli.wxss */
+.zongshouru{
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 50%;
+    background-image: url('https://upload-images.jianshu.io/upload_images/5809200-7fe8c323e533f656.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240');
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: large;
+    line-height: 100rpx;
+    margin: 0 auto;
+}
+.wenzi{
+    padding-top: 50rpx;
+}
+.backgc{
+    width: 100%;
+    height: 400rpx;
+    background-color: #f9dc74;
+    
+}
+
+.yonghu{
+    width: 90%;
+    height: 170rpx;
+    box-shadow: 0 0 10rpx rgb(172, 171, 171);
+    margin: 20rpx auto;
+    border-radius: 10px;
+    line-height: 90rpx;
+    padding: 10rpx;
+}
+.leiji{
+    font-size: small;
+    color: dimgray;
+}
+.number,.total{
+    position: absolute;
+    right: 90rpx;
+}
+.number{
+    color:#f9dc74 ;
+}

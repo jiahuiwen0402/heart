@@ -1,0 +1,63 @@
+{
+  "pages":[
+    "pages/fengmian/fengmian",
+    "pages/ruzhu/ruzhu",
+    "pages/denglu/denglu",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/data/data",
+    "pages/message/message",
+    "pages/mine/mine",
+    "pages/shezhi/shezhi",
+    "pages/xieyi/xieyi",
+    "pages/yajin/yajin",
+    "pages/caiwuguanli/caiwuguanli",
+    "pages/yuyueguanli/yuyueguanli",
+    "pages/serch/serch",
+    "pages/yuyuetixing/yuyuetixing",
+    "pages/ddjieshuzan/ddjieshuzan",
+    "pages/dddaiwancheng/dddaiwancheng",
+    "pages/biaoqian/biaoqian",
+    "pages/sixin/sixin",
+    "pages/xingxi/xingxi",
+    "pages/birthday/birthday",
+    "pages/jianjie/jianjie"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f9dc74",
+    "navigationBarTitleText": "心释放",
+    "navigationBarTextStyle":"white"
+  },
+"tabBar": {
+  "list": [
+    {
+    "pagePath": "pages/home/home",
+    "text": "首页",
+    "iconPath": "/图片/首页_1.png",
+    "selectedIconPath": "/图片/首页.png"
+  },
+  {
+    "pagePath": "pages/data/data",
+    "text": "数据",
+    "iconPath": "/图片/数据.png",
+    "selectedIconPath": "/图片/数据_1.png"
+  },
+  {
+    "pagePath": "pages/message/message",
+    "text": "消息",
+    "iconPath": "/图片/消息_1.png",
+    "selectedIconPath": "/图片/消息_2.png"
+  },
+  {
+    "pagePath": "pages/mine/mine",
+    "text": "我的",
+    "iconPath": "/图片/我的.png",
+    "selectedIconPath": "/图片/我的_1.png"
+  }
+],
+"selectedColor": "#868686"
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

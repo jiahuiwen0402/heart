@@ -1,0 +1,46 @@
+<!--pages/mine/mine.wxml-->
+<view>
+    <!-- 咨询师头像名字 -->
+    <view class="top">
+        <view class="touxiangbox">
+            <image class="touxiang" src="/PNG/256 px/andy.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+            <navigator class="" target="" url="../shezhi/shezhi" hover-class="navigator-hover" open-type="navigate">
+                <image class="shezhi" src="/图片/shezhi.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+            </navigator>
+              
+              
+                
+        </view>
+        <view class="xingming">XXX</view>
+        <view class="jibie">当前等级：1</view>
+    </view>
+    <view class="middle">
+        <view class="jingyan">
+            <view>
+                <view>个人标签</view>
+                <view class="ziliao" wx:for="{{yonghuBiaoqian}}" bindtap="shanchu" data-index="{{index}}">
+                    <text>{{item.name}}</text>
+                    
+                </view>
+                <view>
+                    <navigator class="" target="" style="display:inline-block;" url="../biaoqian/biaoqian" hover-class="none" open-type="navigate">
+                        <text class="add">+添加标签</text>
+                    </navigator>
+                </view>
+                  
+            </view>
+            <view>
+                <view>个人资料</view>
+                <view class="zhuanchang">
+                    国家注册X级心理咨询师，XXXX大学心理学硕士毕业，具有专业的心理学知识与心理咨询技能，系统学习并掌握精神分析理论，沙盘游戏疗法
+                    ，绘画心理治疗术、认识行为治疗理论与技术，结构式家庭治疗理论与技术等。  国家注册X级心理咨询师，XXXX大学心理学硕士毕业，具有专业的心理学知识与心理咨询技能，系统学习并掌握精神分析理论，沙盘游戏疗法
+                    ，绘画心理治疗术、认识行为治疗理论与技术，结构式家庭治疗理论与技术等。              
+                </view>
+            </view>
+            
+        </view>
+    </view>
+      
+    
+</view>
+  

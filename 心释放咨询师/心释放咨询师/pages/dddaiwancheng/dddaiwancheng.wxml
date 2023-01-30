@@ -1,0 +1,38 @@
+<!--pages/dddaiwancheng/dddaiwancheng.wxml-->
+<!--pages/ddjieshuzan/ddjieshuzan.wxml-->
+<view class="touxiangbox">
+    <image class="touxiang" src="/PNG/256 px/clara.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+      
+</view>
+  <view class="ziliaobox">
+      <view class="name">
+        <view>用户一</view>
+        <view class="content">暂无简介</view>
+      </view>
+      <view>
+        <view class="jutuxingxi">
+            <view class="box">
+                <view>预约时间</view>
+                <text class="content text">2020/07/06  14:30~16:30</text>
+            </view>
+            <view class="box">
+                <view>支付金额</view>
+                <text class="content text">300元</text>
+            </view>
+            <view class="box">
+                <view>咨询方式</view>
+                <text class="content text">面对面咨询</text>
+            </view>
+            <view class="box">
+                <view>预约地点</view>
+                <text class="content text">私信商量</text>
+            </view>
+        </view>
+          <view>
+              <button class="btn" style="width:500rpx">私信</button>
+          </view>
+            
+      </view>
+  </view>
+    
+

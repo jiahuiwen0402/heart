@@ -1,0 +1,5 @@
+<!--pages/fengmian/fengmian.wxml-->
+<view class="user-header" style="background-image: url('/图片/封面.png');">
+
+</view>
+

@@ -1,0 +1,50 @@
+/* pages/ddjieshuzan/ddjieshuzan.wxss */
+page{
+    background-color: #a1a0ee;
+}
+.touxiang{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+}
+.touxiangbox{
+    width: 200rpx;
+    height: 200rpx;
+    border-radius: 50%;
+    background-color: #ffbadc;
+    position: absolute;
+    left: 280rpx;
+    top: 150rpx;
+}
+.ziliaobox{
+    width: 85%;
+    background-color: #fff;
+    border-top-left-radius: 100rpx;
+    border-top-right-radius: 100rpx;
+    margin-top: 300rpx;
+    padding: 50rpx;
+}
+.name{
+    width: 200rpx;
+    height: 100rpx;
+    margin: 0 auto;
+    text-align: center;
+}
+.content{
+    color: rgb(138, 137, 137);
+    font-size: small;
+    
+}
+.jutuxingxi{
+    width: 90%;
+    box-shadow: 0 0 10rpx rgb(180, 179, 179);
+    margin: 0 auto;
+    padding: 20rpx;
+    border-radius: 50rpx;
+}
+.text{
+    line-height: 50rpx;
+}
+.jutuxingxi view{
+    margin-bottom: 30rpx;
+}

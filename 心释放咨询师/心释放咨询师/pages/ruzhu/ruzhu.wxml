@@ -1,0 +1,22 @@
+<!--pages/ruzhu/ruzhu.wxml-->
+<view class="ruzhu">
+    <view class="top">
+        <view>
+            <image class="biaozhi" src="/图片/形状 9.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+        <view>心释放心理咨询师</view>
+        <view>入驻通知</view>
+    </view>
+    <view class="text">
+        <view>  
+            通过进行身份验证（相关专业型心理咨询师等级证明），满十八岁的心理医生和心理咨询师等心理健康方面的专业人士可以注册专业型咨询，为需要心理援助的人提供高质量的心理咨询服务，并可以选择通过咨询收费来获取相应的报酬，入驻需要支付
+        </view>
+        <view class="text2">  
+            心释放自XXXX年X月上线以来，拥有来自全世界接近XX名咨询师入驻成为专业型咨询师，他们拿出专业和认真的态度，面对每一个需要心理援助的用户
+        </view>
+    </view>
+    <view class="agree">
+        <button class="btn" style="width:70%" bindtap="tiaozhuan">我已了解并同意</button>
+    </view>
+</view>
+  

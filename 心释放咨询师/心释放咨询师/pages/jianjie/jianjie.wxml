@@ -1,0 +1,9 @@
+<!--pages/birthday/birthday.wxml-->
+<view>
+    <view class="shuru">
+        <input class="input" type="text" placeholder="修改简介" bindinput="setvalue" />
+    </view>
+      <button class="save" bindtap="baocun">保存</button>
+
+</view>
+

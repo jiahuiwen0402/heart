@@ -1,0 +1,59 @@
+/* pages/yuyuetixing/yuyuetixing.wxss */
+.yuyue{
+    width: 100%;
+    position: relative;
+}
+.yun{
+    width: 500rpx;
+    height: 150rpx;
+    position: relative;
+
+}
+.ren{
+    width: 300rpx;
+    height: 400rpx;
+    margin-top: 50rpx;
+    position: absolute;
+    right: 30rpx;
+}
+.yunimg{
+    width: 500rpx;
+    height: 350rpx;
+}
+.text{
+    position: absolute;
+    top: 200rpx;
+    left: 50rpx;
+}
+
+.touxiang{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    box-shadow: 0 0 10rpx rgb(206, 205, 205);
+}
+.tixing{
+    width: 30rpx;
+    height: 30rpx;
+}
+.yonghu{
+    width: 90%;
+    height: 200rpx;
+    background-color: #fcf2c5;
+    display: flex;
+    align-items: center;
+    margin: 30rpx auto;
+    line-height: 50rpx;
+    border-radius: 30rpx;
+}
+.yonghu view{
+    margin-left: 40rpx;
+}
+.time{
+    color: dimgray;
+    font-size: small;
+}
+.tixing{
+    position: absolute;
+    right: 200rpx;
+}

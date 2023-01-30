@@ -1,0 +1,23 @@
+<!--pages/denglu/denglu.wxml-->
+<view>
+    <view class="top">
+        <view class="topbox">
+            <image class="wechat" src="/图片/weixin.png" binderror="" bindload="" />
+              <view class="text">
+                  我们通过微信获取您的头像、个人信息等访问权利
+              </view>
+        </view>
+    </view>
+    <view class="bot">
+        <view class="btn" >
+            <button type="primary" style="width: 600rpx;" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">微信授权登录</button>
+        </view>
+          <view class="word">
+            <view class="left"> 登录代表您已经同意心释放的</view>
+             <text class="right">《使用协议》</text>
+          </view>
+           
+              
+    </view>
+      
+</view>

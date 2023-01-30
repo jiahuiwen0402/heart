@@ -1,0 +1,40 @@
+<!--pages/yuyuetixing/yuyuetixing.wxml-->
+
+<view>
+    <calendar bind:change="onChange" spot="{{date}}"></calendar>
+</view>
+<view class="yuyue">
+    <!-- 无预约 -->
+    <view style="display:{{displayTwo}}">
+        <view class="yun">
+            <image class="yunimg" src="/图片/云.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+            <view class="text">
+                您在这一天暂无任何预约~
+            </view>
+        </view>
+        <view class="yisheng">
+          <image class="ren" src="/图片/医生.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+        </view>
+    </view>
+      
+    
+     <!--有预约-->
+     <view style="display:{{displayOne}}">
+         <view class="yonghu">
+             <view>
+                <image class="touxiang" src="/PNG/256 px/chloe.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+             </view>
+             <view>
+                <view>
+                    <text>用户一</text>
+                    <image class="tixing" src="/图片/tixing.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                </view>
+                <view class="time">2020年7月6日     14:30~16:30</view>
+             </view>
+         </view>
+           
+     </view>
+       
+</view>
+  
+  

@@ -1,0 +1,34 @@
+/* pages/yajin/yajin.wxss */
+/* pages/xieyi/xieyi.wxss */
+/* pages/ruzhu/ruzhu.wxss */
+page{
+    background-color: #ececea;
+}
+.ruzhu{
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30rpx;
+    border-radius: 50rpx;
+    padding: 50rpx;
+}
+.biaozhi{
+    width: 70rpx;
+    height: 70rpx;
+}
+.top{
+    line-height: 80rpx;
+}
+.text{
+    line-height: 70rpx;
+    color: #000;
+    text-align: left;
+}
+.text view{
+    margin: 50rpx 0;
+}
+.black{
+    font-weight: bold;
+}

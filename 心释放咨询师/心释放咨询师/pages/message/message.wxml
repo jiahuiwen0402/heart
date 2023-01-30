@@ -1,0 +1,155 @@
+<!--pages/message/message.wxml-->
+<view class="swiper-tab">
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">私信</view>
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">访客</view>
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">咨询申请</view>
+    <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">赞和评价</view>
+    <view class="swiper-tab-list {{currentTab==4 ? 'on' : ''}}" data-current="4" bindtap="swichNav">收藏消息</view>
+</view>
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+    <!-- 私信 -->
+    <swiper-item>
+      <view>
+        <navigator class="" target="" url="../sixin/sixin" hover-class="navigator-hover" open-type="navigate">
+            <view class="sixin">
+                <view class="touxiangbox">
+                    <image class="touxiang" src="/PNG/256 px/arthur.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                </view>
+                <view class="mid">
+                    <view>用户3</view>
+                    <view class="msg">您好，请问您的咨询费用怎么算</view>
+                    <view class="time">
+                        <text>2020年6月28日</text>
+                        <text>14:30</text>
+                    </view>
+                </view>
+                    <view class="text">私信了你</view>
+                    
+                    
+            </view>
+        </navigator>
+            <view class="bottom">
+                ————已经到底啦————
+            </view>
+      </view>
+    </swiper-item>
+    <!-- 访客 -->
+    <swiper-item>
+        <view>
+           <view class="sixin">
+               <view class="touxiangbox">
+                    <image class="touxiang" src="/PNG/256 px/andy.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                 
+               </view>
+               <view class="mid2">
+                    <view>用户1</view>
+                    <view class="time">2020年6月28日</view>
+               </view>
+               <view class="text2">
+                    访问了您的主页
+               </view>
+           </view>
+             <view class="bottom">
+                ————已经到底啦————
+            </view>
+        </view>
+
+    </swiper-item>
+    <!-- 咨询申请 -->
+    <swiper-item>
+        <view>
+            <view>
+                <view class="sixin" wx:for="{{dingdan}}" data-index="{{index}}" bindtap="zixun">
+                    <view class="touxiangbox">
+                        <image class="touxiang" src="/PNG/256 px/andy.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                    
+                    </view>
+                    <view class="mid">
+                        <view>
+                            <text>{{yonghuname[index]}}</text>
+                            <button class="chuli jujue" style="width:150rpx" bindtap="refuse">拒绝</button>
+                            <button class="chuli jieshou" style="width:150rpx" bindgtap="agree">接受</button>
+                        </view>
+                        <view class="wenti">咨询“学业压力”有关的问题</view>
+                        <view class="time">
+                            <text>预约时间：{{item.appointmentTime}}</text>
+                        </view>
+                    </view>
+                </view>
+                
+            
+                <view class="bottom">
+                ————已经到底啦————
+                </view>
+            </view>
+        </view>
+    </swiper-item>
+    <!-- 赞和评价 -->
+    <swiper-item>
+        <view>
+            <!-- 评论 -->
+           <view class="sixin">
+               <view class="touxiangbox">
+                    <image class="touxiang" src="/PNG/256 px/andy.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                 
+               </view>
+               <view class="mid">
+                    <view>
+                        <text>用户1</text>
+                        <text class="text2">评论了你的咨询</text>
+                    </view>
+                    <view class="pingjia">咨询师超级好！超耐心的小姐姐</view>
+                    <view class="time">
+                        <text>2020年6月28日</text>
+                        <text>15:00</text>
+                    </view>
+               </view>
+           </view>
+           <!-- 点赞 -->
+           <view class="sixin">
+               <view class="touxiangbox">
+                    <image class="touxiang" src="/PNG/256 px/andy.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                 
+               </view>
+               <view class="mid2">
+                    <view>
+                        <text>用户2</text>
+                        <text class="text2">点赞了你的咨询</text>
+                    </view>
+                    <view class="time">
+                        <text>2020年6月28日</text>
+                        <text>15:00</text>
+                    </view>
+               </view>
+           </view>
+            <view class="bottom">
+                ————已经到底啦————
+            </view>
+        </view>
+    </swiper-item>
+    <!-- 收藏消息 -->
+    <swiper-item>
+       <view>
+           <view class="sixin">
+               <view class="touxiangbox">
+                    <image class="touxiang" src="/PNG/256 px/andy.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="" />
+                 
+               </view>
+               <view class="mid2">
+                    <view>用户1</view>
+                    <view class="time">
+                        <text>2020年6月28日</text>
+                        <text>15:00</text>
+                    </view>
+               </view>
+               <view class="text2">
+                    收藏了你
+               </view>
+           </view>
+             <view class="bottom">
+                ————已经到底啦————
+            </view>
+        </view>
+    </swiper-item>
+</swiper>
+  
